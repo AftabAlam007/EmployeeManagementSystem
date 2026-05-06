@@ -1,0 +1,141 @@
+// src/data/mockData.js
+export const adminUser = {
+  id: 'admin',
+  password: 'admin123',
+  role: 'admin',
+  name: 'Admin User',
+};
+
+export const employeeUsers = [
+  {
+    id: 'emp1',
+    password: 'password123',
+    role: 'employee',
+    personalDetails: {
+      fullName: 'Jane Doe',
+      dob: '1990-05-15',
+      gender: 'Female',
+      age: 34,
+      currentAddress: {
+        city: 'New York',
+        addressLine1: '123 Main St',
+        addressLine2: 'Apt 4B',
+        pinCode: '10001',
+      },
+      permanentAddress: {
+        city: 'New York',
+        addressLine1: '123 Main St',
+        addressLine2: 'Apt 4B',
+        pinCode: '10001',
+      },
+      mobile: '1234567890',
+      personalMail: 'jane.doe@example.com',
+      emergencyContactName: 'John Doe',
+      emergencyContactMobile: '0987654321',
+    },
+    professionalDetails: {
+      employmentCode: '123456',
+      companyMail: 'jane.doe@empower.com',
+      officePhone: '1122334455',
+      city: 'New York',
+      officeAddress: {
+        addressLine1: '456 Business Ave',
+        addressLine2: 'Floor 10',
+        pinCode: '10002',
+      },
+      reportingManager: 'manager.code@empower.com',
+      hrName: 'HR Bob',
+      employmentHistory: [
+        {
+          companyName: 'Tech Solutions',
+          joiningDate: '2015-06-01',
+          endDate: '2018-12-31',
+        },
+      ],
+      dateOfJoining: '2019-01-15',
+    },
+    projectDetails: [
+      {
+        projectCode: 'P-101',
+        startDate: '2023-01-01',
+        endDate: '2023-12-31',
+        clientName: 'Client A',
+        reportingManager: 'manager.code@empower.com',
+      },
+      {
+        projectCode: 'P-105',
+        startDate: '2024-01-01',
+        endDate: 'Present',
+        clientName: 'Client B (Current)',
+        reportingManager: 'manager.code@empower.com',
+      },
+    ],
+    financeDetails: {
+      panCard: 'ABCDE1234F',
+      aadharCard: '123456789012',
+      bankName: 'Global Bank',
+      branch: 'Downtown',
+      ifscCode: 'GBIN000123',
+      ctcBreakup: 'Available upon request',
+    },
+  },
+  {
+    id: 'emp2',
+    password: 'password456',
+    role: 'employee',
+    personalDetails: {
+      fullName: 'Mark Smith',
+      dob: '1992-11-20',
+      gender: 'Male',
+      age: 31,
+      currentAddress: {
+        city: 'San Francisco',
+        addressLine1: '789 Tech Rd',
+        addressLine2: '',
+        pinCode: '94103',
+      },
+      permanentAddress: {
+        city: 'San Francisco',
+        addressLine1: '789 Tech Rd',
+        addressLine2: '',
+        pinCode: '94103',
+      },
+      mobile: '1112223334',
+      personalMail: 'mark.smith@example.com',
+      emergencyContactName: 'Susan Smith',
+      emergencyContactMobile: '4445556667',
+    },
+    professionalDetails: {
+      employmentCode: '654321',
+      companyMail: 'mark.smith@empower.com',
+      officePhone: '5544332211',
+      city: 'San Francisco',
+      officeAddress: {
+        addressLine1: '101 Innovation Dr',
+        addressLine2: 'Building 5',
+        pinCode: '94105',
+      },
+      reportingManager: 'manager.code@empower.com',
+      hrName: 'HR Alice',
+      employmentHistory: [],
+      dateOfJoining: '2021-03-01',
+    },
+    projectDetails: [
+      {
+        projectCode: 'P-105',
+        startDate: '2023-03-01',
+        endDate: 'Present',
+        clientName: 'Client B (Current)',
+        reportingManager: 'manager.code@empower.com',
+      },
+    ],
+    financeDetails: {
+      panCard: 'FGHIJ5678K',
+      aadharCard: '098765432109',
+      bankName: 'Tech Bank',
+      branch: 'Mission',
+      ifscCode: 'TBIN000456',
+      ctcBreakup: 'Available upon request',
+    },
+  },
+];

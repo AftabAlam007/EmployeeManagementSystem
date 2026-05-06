@@ -1,0 +1,11 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  --color-purple-600: #9333ea;
+}
+
+/* Custom styles if needed */
+body {
+  font-family: 'Inter', sans-serif;
+}

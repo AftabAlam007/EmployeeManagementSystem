@@ -1,0 +1,12 @@
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    date-format: yyyy-MM-dd
+    time-zone: UTC
+    default-leniency: true
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.validation: DEBUG
