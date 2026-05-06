@@ -11,6 +11,7 @@
 [![Tailwind](https://img.shields.io/badge/Styling-TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)]()
 [![SpringBoot](https://img.shields.io/badge/Backend-SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)]()
 [![MySQL](https://img.shields.io/badge/Database-MySQL-00618A?style=for-the-badge&logo=mysql&logoColor=white)]()
+[![OpenAI](https://img.shields.io/badge/AI-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)]()
 ![API](https://img.shields.io/badge/API-JPA%20REST-orange?style=for-the-badge)
 
 </div>
@@ -34,6 +35,7 @@
 # 🌟 Overview
 
 **Empower** is a sleek, animated, and scalable **Employee Management System** featuring:  
+✨ **NEW:** AI-Powered HR Assistant (OpenAI)  
 ✨ Role-based login  
 ✨ Admin & Employee dashboards  
 ✨ Project + Finance modules  
@@ -59,6 +61,18 @@
 - REST API  
 - MySQL  
 - (Optional: JWT Authentication)
+
+## 🤖 AI & Integrations
+- **OpenAI API** (For Smart HR Assistant)
+
+---
+
+# 🤖 AI HR Assistant (Powered by OpenAI)
+
+Empower now includes a smart **HR Assistant** integrated directly into the platform to streamline employee and HR interactions!  
+💬 **Instant Answers:** Resolves employee queries regarding policies, leaves, and platform usage.  
+🧠 **Context-Aware:** Powered by OpenAI's advanced models to provide accurate, human-like responses.  
+⚡ **Efficiency Boost:** Reduces manual workload for the HR department.
 
 ---
 
@@ -172,7 +186,6 @@ Includes PAN, Aadhar, bank info, IFSC, CTC breakdown.
 # ⚙️ Installation & Setup
 
 ## 🟦 Frontend Setup (Vite + React)
-
 ```bash
 cd frontend
 npm install
